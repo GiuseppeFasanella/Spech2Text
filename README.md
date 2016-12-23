@@ -34,8 +34,8 @@ ottieni un json che ti identifica
 ######################################################################
 
 ```
-cd Google_rec/
-
+cd Speech2Text/
+chmod +x Rec_stop.sh
 ./Rec_stop.sh
 
 Parla
