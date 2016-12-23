@@ -58,7 +58,10 @@ export GOOGLE_APPLICATION_CREDENTIALS=/home/gfasanel/Scaricati/speech2text-proje
 
 access_token=`../Scaricati/google-cloud-sdk/bin/gcloud auth print-access-token`
 
-curl -s -k -H "Content-Type: application/json"     -H "Authorization: Bearer $access_token"     https://speech.googleapis.com/v1beta1/speech:syncrecognize     -d @sync-request.json | tee last_result.log
+curl -s -k -H "Content-Type: application/json" \
+    -H "Authorization: Bearer $access_token" \
+    https://speech.googleapis.com/v1beta1/speech:syncrecognize \
+    -d @sync-request.json | tee last_result.log
 
 source do.sh (in base al testo parsato fa qualcosa)
 ```
