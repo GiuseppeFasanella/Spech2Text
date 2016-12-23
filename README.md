@@ -36,11 +36,11 @@ ottieni un json che ti identifica
 ```
 cd Speech2Text/
 chmod +x Rec_stop.sh
-./Rec_stop.sh
+./Rec_Stop.sh
 
 Parla
 
-./Rec_stop.sh
+./Rec_Stop.sh
 
 Ora upload speech.flac che hai appena registrato (se hai dubbi sox --i speech.flac)
 
