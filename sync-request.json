@@ -1,0 +1,9 @@
+{
+  'config': {
+      'encoding':'FLAC',
+      'sampleRate': 16000,
+  },
+  'audio': {
+      'uri':'gs://speech2text_db/speech.flac'
+  }
+}
